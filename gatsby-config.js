@@ -14,7 +14,9 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-plugins: [`gatsby-plugin-sass`,
+plugins: [`@babel/preset-env`,
+    `@babel/preset-typescript`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
